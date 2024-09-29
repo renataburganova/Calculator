@@ -20,9 +20,9 @@ set(PROJECT_SOURCES
         loginwindow.cpp
         loginwindow.h
         loginwindow.ui
-        calculatorwindow.cpp
-        calculatorwindow.h
-        calculatorwindow.ui
+        keyboardwindow.cpp
+        keyboardwindow.h
+        keyboardwindow.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -31,7 +31,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         loginwindow.h loginwindow.cpp loginwindow.ui
 
-        calculatorwindow.h calculatorwindow.cpp calculatorwindow.ui
+        keyboardwindow.h keyboardwindow.cpp keyboardwindow.ui
 
 
     )
